@@ -1,0 +1,22 @@
+Limits: # limits placed on what the user can set the laser settings to 
+
+  current_min: 0
+  current_max: 650 # absolute max is 1500.0mA but this diode limit is 650mA
+
+  frequency_min: 0
+  frequency_max: 100 # 100.0Hz
+
+  duration_min: 10 # 1.0ms
+  duration_max: 80 # 14.4ms 
+
+  tec_min: 15 # 15.00C
+  tec_max: 40 # 40.00C
+
+Precision: # the decimal precision which laser settings can be set 
+
+  current: 0.1
+  frequency: 0.1
+  duration: 1
+  tec: 0.01
+
+
